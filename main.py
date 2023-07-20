@@ -35,6 +35,19 @@ import  random
 #         if flag:
 #             break
 
-
+'''
+Задача 14: Требуется вывести все целые степени двойки (т.е. числа вида 2k), не превосходящие числа N.
+'''
+# N = random.randint(0, 100)
+# s = 1
+# if N == 0:
+#     print(f"2 в {N} степени равняется {s}")
+# else:
+#     print (f"{N} \n {s}", end = ', ')
+#     for i in range(N):
+#         for j in range(i):
+#             s *= 2
+#             if s <= N:
+#                 print(s, end =', ' )
 
 
